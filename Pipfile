@@ -9,3 +9,4 @@ name = "pypi"
 python_version = "2.7"
 
 [dev-packages]
+pytest = "==4.6.11"
