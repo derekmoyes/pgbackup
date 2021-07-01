@@ -7,7 +7,7 @@ Preparing for development
 -------------------------
 
 1. Ensure ``pip`` and ``pipenv`` are installed.
-2. Clone repository: ``git clone git@github.com:example/pgbackup``
+2. Clone repository: ``git clone git@github.com:derekmoyes/pgbackup.git``
 3. Fetch development dependencies: ``make install``
 
 Usage
