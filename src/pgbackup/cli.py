@@ -38,7 +38,7 @@ def main():
 #storage.s3(client, dump.stdout, args.destination, file_name)
     print('S3 handler not yet implemented')
   else:
-    outfile = open(args.destination, 'w')
-    print("Backing database up locally to s%" % outfile.name)
+    outfile = open(args.destination, 'w+b')
+    print("Backing database up locally to %s" % outfile.name)
     storage.local(dump.stdout, outfile)
 

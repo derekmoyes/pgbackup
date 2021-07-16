@@ -11,3 +11,4 @@ python_version = "2.7"
 [dev-packages]
 pytest = "==4.6.11"
 pytest-mock = "==2.0.0"
+tox = "*"
